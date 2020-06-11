@@ -1,0 +1,32 @@
+.rowthree{
+	display: flex;
+}
+
+-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+
+
+.row{
+	border:1px solid red !important;
+
+	
+	width: 100%;
+	display: flex;
+	flex-wrap:wrap; 
+
+
+}
+img{
+	transition: all
+	
+}
+img:hover{
+	transform: scale(1.1);
+	animation: forwards;
+	animation-delay: 1s;
+	animation-duration: 4s;
+	animation-direction: alternate;
+}
+
