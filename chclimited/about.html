@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chclimited</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        #more {
+            display: none;
+        }
+        
+        .jumbotron a {
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- home -->
+    <header>
+
+
+
+        <nav class="navbar navbar-expand-lg bg-sucess navbar-light sticky" id="navbar">
+            <a class="navbar-brand" href="#"><img src="images/logo.png" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav  ">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
+                    <li class="nav-item"><a href="project.html" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <about>
+
+        <div class="project">
+            <h1 class="text-center h1">About</h1>
+        </div>
+        <div class="container-fluid">
+            <div class="row" style="margin-left: 10%; margin-top: 40rem;box-shadow:2px 2px 8px 10px #ebebe7; width: 80%; ">
+                <div class="col-md-7">
+                    <h2>Our Profile</h2>
+                    <hr>
+                    <h5 style="line-height: 2em;">CHC is a Property and Development Company promoted by institutional investors and prominent individuals with a core mission to provide affordable housing and real estate investment opportunities to all Nigerians. A member of Real Estate
+                        Developers Association of Nigeria (REDAN). We provide creative housing solutions for Upper Middle class citizens nationwide using various models that will deliver affordable housing to its target market. Our company seeks out investment
+                        property with latent value, and makes it <span id="dots">...</span><span id="more"> available for its wide customer base. We pride ourselves with the ability to make real estate investment affordable for any investor. CHC
+                        Limited is a profit-oriented organization operating as a holding company through which projects that require individual funding are initiated. CHC as a holding company will deliver returns to its promoters and project investors
+                        through revenue generated across multiple stages of property development. We draw on resources and capabilities across the sector to ensure impact in areas within and outside of focus. We secure funding from the capital market,
+                        equity investors and regulated organizations and create a commercially driven vehicle in response to market demand with the intent of having a significant impact on home ownership levels in Nigeria. Through accessing an increasing
+                        mortgage market and facilitating the development of high quality housing at optimal price points, CHC provides upper middle class the opportunity to own homes directly for the first time. We are focused on the development of 100,000
+                        residential properties by year 2020 acting as a catalyst targeting arrears across the housing value chain. </span>.</h5>
+                    <button class="btn btn-outline-success mb-3" onclick="myFunction()" id="myBtn">Read more</button>
+                </div>
+                <div class="col-md-4 mt-5">
+                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="images/building-4961642_640.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/house-4384774_640.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center row">
+                <h2 class="col-md-12" style="padding: 1em; font-size: 2em;">Meet Our Team</h2>
+                <hr>
+            </div>
+            <div class="row ">
+
+                <div class="col-md-4 ">
+                    <div class="card" style="width: 18rem;">
+                        <img src="images/amir.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">CEO</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="images/allgo.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Sales Representative</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="images/jonas.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Lead Consultant</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center row">
+                <hr>
+                <h2 class="col-md-12" style="margin-top: 2em; padding-bottom: 1em;">Our satisfied customer says</h2>
+                <hr>
+            </div>
+            <div class="row ">
+
+                <div class="col-md-4">
+                    <img src="images/jonas.jpg" alt="" class="mr-3 mt-3 rounded-circle">
+                    <div class="text=center" style="padding: 1em; line-height: 2.5em; font-size: 1.2em;">
+                        Chclimited offered me the best customer service i have ever seen. Most of the work was done on my mobile, i didn't have to be physically present.
+                    </div>
+                    <h3>John Buff</h3>
+                    <p>Agent</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/amir.jpg" alt="" class="mr-3 mt-3 rounded-circle">
+
+                    <div class="text=center" style="padding: 1em; line-height: 2.5em; font-size: 1.2em;">
+                        Chclimited offered me the best customer service i have ever seen. Most of the work was done on my mobile, i didn't have to be physically present.
+                    </div>
+                    <h3>John Buff</h3>
+                    <p>Agent</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/jonas.jpg" alt="" class="mr-3 mt-3 rounded-circle">
+                    <div class="text=center" style="padding: 1em; line-height: 2.5em; font-size: 1.2em;">
+                        Chclimited offered me the best customer service i have ever seen. Most of the work was done on my mobile, i didn't have to be physically present.
+                    </div>
+                    <h3>John Buff</h3>
+                    <p>Agent</p>
+                </div>
+            </div>
+        </div>
+    </about>
+    <section>
+        <!-- contact -->
+        <div class="jumbotron" style="font-size: .5em; line-height: 2em;">
+            <div class="row contact">
+                <div class="col-md-3">
+                    <h2>Company</h2>
+                    <hr>
+                    <a href="about.html" target="_blank" rel="noopener noreferrer">
+                        <p>About chclimited</p>
+                    </a>
+                    <a href="services.html" target="_blank" rel="noopener noreferrer">
+                        <p>Our Services</p>
+                    </a>
+                    <a href="properties.html" target="_blank" rel="noopener noreferrer">
+                        <p>Properties</p>
+                    </a>
+
+
+                </div>
+                <div class="col-md-3">
+                    <h2>Social Media</h2>
+                    <hr>
+                    <a href="https://https://web.facebook.com/Countrywide-Housing-Company-847795878571830/" target="_blank"><i class="fa fa-facebook" style="font-size:25px;"></i></a><br>
+                    <a href="https:twitter.com/chclimited" target="_blank"><i class="fa fa-twitter" style="font-size:25px;"></i></a><br>
+                    <a href="https:twitter.com/chclimited" target="_blank"><i class="fa fa-instagram" style="font-size:25px;"></i></a>
+                </div>
+                <div class="col-md-3">
+                    <h2>Our Newsletter</h2>
+                    <hr>
+                    <p>Get the latest updates on our projects.Stay up to date with latest news from our company. Sign Up Now</p>
+                    <form action="">
+                        <div class="form-group">
+                            <label>Email address</label>
+                            <input type="email" class="form-control" placeholder="Enter your Email" aria-describedby="emailHelp">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-lg">Subscribe</button>
+                    </form>
+                </div>
+                <div class="col-md-3">
+                    <h2>Our lines</h2>
+                    <hr>
+                    <p><a href="#">info@chclimited.com</a></p>
+                    <p>Call us on:</p>
+                    <p>+234 09-2919912</p>
+                    <p>+234 09-2919913</p>
+                    <p>+234 09-2919914</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <hr>
+        <p class="text-center">&copy;2020Countrywide Housing Company Limited. All Rights Reserved</p>
+    </footer>
+    <!-- end of footer -->
+    <script>
+        function myFunction() {
+            var dots = document.getElementById("dots");
+            var moreText = document.getElementById("more");
+            var btnText = document.getElementById("myBtn");
+
+            if (dots.style.display === "none") {
+                dots.style.display = "inline";
+                btnText.innerHTML = "Read more";
+                moreText.style.display = "none";
+            } else {
+                dots.style.display = "none";
+                btnText.innerHTML = "Read less";
+                moreText.style.display = "inline";
+            }
+        }
+    </script>
+    <script src="main.js "></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

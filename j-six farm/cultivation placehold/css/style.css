@@ -393,11 +393,15 @@ Purchase:
      box-shadow: 0px 0px 30px 1px rgba(0, 0, 0, 0.06);
      z-index: 999;
      opacity: 0;
-     visibility: hidden;
+     /* visibility: hidden; */
      transform: translateY(100px);
      transition: all 0.3s ease-in-out;
      -webkit-transition: all 0.3s ease-in-out;
      -moz-transition: all 0.3s ease-in-out;
+ }
+ 
+ .bg-light {
+     background-color: #fff !important;
  }
  
  .clv_right_header .clv_menu .clv_menu_nav>ul>li:hover>ul {
