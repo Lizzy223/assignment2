@@ -1,0 +1,10 @@
+body {
+    /* background: url(images/home_slider.jpg);
+    opacity: .5; */
+    background-image: linear-gradient(to bottom, rgb(112, 112, 233), white);
+    background-repeat: no-repeat;
+}
+
+form {
+    color: black !important;
+}
