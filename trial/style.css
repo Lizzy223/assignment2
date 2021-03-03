@@ -1,0 +1,240 @@
+        * {
+        /*box-sizing: border-box;*/
+        margin: 0;
+        padding: 0;
+    }
+    
+    nav ul {
+        float: left;
+        margin-top: 1em;
+        width: 100%;
+    }
+    
+    nav ul li {
+        padding-top: 2px;
+        list-style: none;
+        display: inline;
+        margin-left: 0;
+        padding-right: 5%;
+    }
+    
+    hr {
+        width: 4em;
+        float: left;
+    }
+    
+    .set h1 {
+        font-size: 4rem;
+        text-transform: capitalize;
+    }
+    
+    .set {
+        /*place-item:center;
+	justify-content: center;*/
+        margin-top: 35%;
+        text-align: center;
+        line-height: 1.8rem;
+    }
+    
+    img {
+        height: 48rem;
+        width: 100%;
+    }
+    
+    .section {
+        display: flex;
+        z-index: 1;
+        position: fixed;
+        bottom: 1.5rem;
+    }
+    /*.row{
+	display: flex;
+	flex-wrap: wrap;
+}*/
+    
+    .one {
+        background-color: yellow;
+        padding: 2em;
+    }
+    
+    .two {
+        background-color: orange;
+        padding: 2em;
+    }
+    
+    .three {
+        background-color: red;
+        color: white;
+        padding: 2em;
+    }
+    
+    .absolute {
+        width: 50%;
+    }
+    
+    .absolute2 {
+        width: 20%;
+    }
+    /*.col-md-5, .col-md-7{
+	position: relative;
+}*/
+    /*.absolute {
+	position: absolute;
+	bottom: 10rem;
+	z-index: 1;
+}
+.absolute2{
+	position: absolute;
+	bottom: 20rem;
+	z-index: 1;
+	left: 48%;
+}*/
+    
+    .ones p {
+        color: yellow;
+        font-size: 1.2rem;
+        text-transform: uppercase;
+    }
+    
+    .twos p {
+        color: orange;
+        font-size: 1.2rem;
+        text-transform: uppercase;
+    }
+    
+    .threes p {
+        color: red;
+        font-size: 1.2rem;
+        text-transform: uppercase;
+    }
+    
+    .ones,
+    .twos,
+    .threes {
+        background-color: black;
+        color: white;
+        padding: 2em;
+        height: 10rem;
+    }
+    
+    .space1 {
+        width: 40%;
+    }
+    
+    .space2 {
+        width: 60%;
+    }
+    /*animations*/
+    
+    .space2 {
+        animation-name: space;
+        animation-duration: 10s;
+        animation-iteration-count: 10s;
+        animation-timing-function: ease-in;
+    }
+    
+    @keyframes space {
+        from {
+            width: 100%;
+            margin-left: -100%;
+        }
+        30% {
+            width: 100%;
+            margin-left: 0;
+        }
+        to {
+            width: 60%
+        }
+    }
+    
+    .space1 {
+        animation-name: spacee;
+        animation-duration: 10s;
+        animation-timing-function: ease-in;
+    }
+    
+    @keyframes spacee {
+        from {
+            width: 40%;
+            margin-left: -40%;
+        }
+        30% {
+            width: 40%;
+            margin-left: -40%;
+        }
+        to {
+            width: 40%;
+            margin-left: 0;
+        }
+    }
+    
+    .liz {
+        animation-name: liz;
+        animation-duration: 10s;
+        animation-timing-function: ease-in;
+    }
+    
+    @keyframes liz {
+        from {
+            left: -100%;
+        }
+        30% {
+            left: -100%;
+        }
+        to {
+            left: 0;
+        }
+    }
+    
+    .slides {
+        animation-name: slide;
+    }
+    
+    @keyframes slide {
+        from {}
+    }
+    
+    #black {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 49rem;
+        width: 0%;
+        background-color: black;
+        animation-duration: 13s;
+        animation-name: slidein;
+        animation-delay: 12s;
+        animation-iteration-count: infinite;
+        animation-fill-mode: backwards;
+        animation-timing-function: ease-in-out;
+        z-index: 1;
+    }
+    
+    @keyframes slidein {
+        from {
+            margin-left: 0%;
+            width: 0%;
+        }
+        10% {
+            margin-left: 0;
+            width: 100%;
+        }
+        15% {
+            margin-left: 100%;
+            width: 0%
+        }
+        16% {
+            display: none;
+        }
+        /* 75%{
+  	margin-left: 0%;
+  	width:75%; 
+  }
+  99%{
+  	margin-left: 75%;
+  	width: 99%;
+  }*/
+        to {
+            margin-left: 100%;
+            width: 0%
+        }
